@@ -1,0 +1,5 @@
+{
+    "app_name": "Go Practice",
+    "port": 8080,
+    "debug": true
+}

@@ -59,7 +59,8 @@ LaravelでのWeb開発経験がある人が「GoでAPIを作る感覚」にス�
 | Day2 | RESTful Todo API（GET/POST） | `/week2/day2-todo-api/` |
 | Day3 | PUT/DELETEとバリデーション導入 | `/week2/day3-update-delete/` |
 | Day4 | ミドルウェアでロギング＆ヘッダー | `/week2/day4-middleware/` |
-| Day5 | サービス層・Handler層への分離 | `/week2/day5-structure/` |
+| Day5 | 構造体バリデーションの導入（validatorパッケージ） | `/week2/day5-validator/` |
+
 | Day6 | テスト＆Curl/Postman操作体験 | `/week2/day6-testing/` |
 
 ---

@@ -1,0 +1,16 @@
+# 開発用Dockerfile（Air付き）
+FROM golang:1.22-alpine
+
+WORKDIR /app
+
+# Air インストール（Go 1.22対応版）
+RUN go install github.com/air-verse/air@v1.52.3
+
+# 依存関係のみ先にコピー
+COPY go.mod go.sum ./
+RUN go mod download
+
+EXPOSE 8080
+
+# Air で実行（ホットリロード）
+CMD ["air"]

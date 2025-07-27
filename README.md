@@ -110,3 +110,62 @@ Go言語基礎 → CLI／API／DB／並行処理などの小タスク学習 → 
 ユーザーが「DayNやりたい」「このコードを評価して」「次進めたい」と言ったら、即コード提示＋レビューで導いてください。
 ```
 
+---
+
+---
+
+## 🏁 このリポジトリで完成するアプリの例
+
+以下は、Goの文法・CLI・API開発・テスト・デプロイを経て完成する「実用的なREST APIアプリ」です。
+
+# 📦 Go Todo API
+
+Go言語で構築したシンプルなToDo管理APIです。  
+REST設計・バリデーション・ミドルウェア・環境変数管理・Docker対応など、モダンGoアプリのベースとなる構成を学べます。
+
+## 🚀 デモ
+
+🔗 https://go-practice-bootcamp.onrender.com
+
+## 🔧 使用技術
+
+- Go 1.22
+- net/http
+- chi（ルーティング）
+- github.com/go-playground/validator
+- godotenv
+- Docker / Render
+
+#### 🧪 テスト実行
+
+```bash
+go test -v ./...
+```
+
+CI/CDはGithubActionsで自動化されています
+
+#### APIエンドポイント一覧
+| メソッド   | パス          | 概要      |
+| ------ | ----------- | ------- |
+| GET    | /todos      | タスク一覧取得 |
+| POST   | /todos      | タスク新規作成 |
+| PUT    | /todos/\:id | タスク更新   |
+| DELETE | /todos/\:id | タスク削除   |
+
+#### 環境変数(.env)
+```
+PORT=8080
+APP_NAME=GoTodoAPI
+APP_ENV=dev
+```
+#### 🐳 Dockerで実行する場合
+```
+docker build -t go-todo-api .
+docker run -p 8080:8080 --env-file .env go-todo-api
+```
+
+#### ✅ バッジ
+
+![Go Version](https://img.shields.io/badge/Go-1.22-blue)
+![CI](https://github.com/t1k2a/go-practice-bootcamp/actions/workflows/go.yml/badge.svg)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)

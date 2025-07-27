@@ -169,3 +169,20 @@ docker run -p 8080:8080 --env-file .env go-todo-api
 ![Go Version](https://img.shields.io/badge/Go-1.22-blue)
 ![CI](https://github.com/t1k2a/go-practice-bootcamp/actions/workflows/go.yml/badge.svg)
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
+
+#### このプロジェクトで得られるスキル
+| カテゴリ        | 内容                                                      |
+| ----------- | ------------------------------------------------------- |
+| Goの基本文法     | struct, method, interface, error handling, goroutine など |
+| CLIアプリ開発    | `flag` パッケージによる引数処理、標準入力・出力の操作                          |
+| JSON/YAML処理 | `encoding/json`, `gopkg.in/yaml.v2` を使った構造体とのマッピング      |
+| Web API開発   | `net/http`, `chi` を使ったルーティングとハンドラの実装                    |
+| バリデーション     | `validator.v10` による構造体フィールドの検証                          |
+| ミドルウェア設計    | ロギング・エラーハンドリングの共通化                                      |
+| 環境変数管理      | `godotenv`, `os.Getenv` による `.env` ロード                  |
+| Docker      | GoアプリのDocker化と環境変数対応                                    |
+| CI/CD       | GitHub Actions による自動ビルド・テスト                             |
+| デプロイ        | Renderを使った無料クラウドへのデプロイと公開                               |
+| テスト         | `httptest`, `go test` によるハンドラのユニットテスト                   |
+| ドキュメンテーション  | README整理、バッジ追加、API仕様の表記                                 |

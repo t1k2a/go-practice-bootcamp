@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: ソースをチェックアウト
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Goをセットアップ
       uses: actions/setup-go@v5
@@ -29,6 +29,8 @@ jobs:
     - name: テスト実行
       run: go test -v ./...
 
+    # 💡 チャレンジ課題（任意）
+    # main.go に *_test.go を追加してテストを動かす
     - name: week3/day4-ciのテスト実行（カバレッジ付き）
       run: |
         cd week3/day4-ci
@@ -36,7 +38,7 @@ jobs:
         go tool cover -func=coverage.out
 
     - name: カバレッジレポートをアップロード
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: always()
       with:
         name: coverage-report

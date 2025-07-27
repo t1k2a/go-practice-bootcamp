@@ -28,3 +28,16 @@ jobs:
 
     - name: テスト実行
       run: go test -v ./...
+
+    - name: week3/day4-ciのテスト実行（カバレッジ付き）
+      run: |
+        cd week3/day4-ci
+        go test -v -cover -coverprofile=coverage.out
+        go tool cover -func=coverage.out
+
+    - name: カバレッジレポートをアップロード
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: coverage-report
+        path: week3/day4-ci/coverage.out

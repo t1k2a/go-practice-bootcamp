@@ -1,0 +1,23 @@
+mode: set
+day4-ci/main.go:25.62,31.2 4 1
+day4-ci/main.go:35.64,38.16 3 0
+day4-ci/main.go:38.16,41.3 2 0
+day4-ci/main.go:43.2,46.29 3 0
+day4-ci/main.go:46.29,47.20 1 0
+day4-ci/main.go:47.20,49.71 2 0
+day4-ci/main.go:49.71,52.5 2 0
+day4-ci/main.go:53.4,56.10 4 0
+day4-ci/main.go:59.2,59.73 1 0
+day4-ci/main.go:63.64,66.16 3 0
+day4-ci/main.go:66.16,69.3 2 0
+day4-ci/main.go:71.2,74.29 3 0
+day4-ci/main.go:74.29,75.20 1 0
+day4-ci/main.go:75.20,79.4 3 0
+day4-ci/main.go:81.2,81.73 1 0
+day4-ci/main.go:85.64,87.62 2 1
+day4-ci/main.go:87.62,90.3 2 0
+day4-ci/main.go:92.2,92.22 1 1
+day4-ci/main.go:92.22,95.3 2 1
+day4-ci/main.go:97.2,103.33 6 1
+day4-ci/main.go:106.13,117.16 8 0
+day4-ci/main.go:117.16,119.3 1 0

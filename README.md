@@ -60,7 +60,6 @@ LaravelでのWeb開発経験がある人が「GoでAPIを作る感覚」にス�
 | Day3 | PUT/DELETEとバリデーション導入 | `/week2/day3-update-delete/` |
 | Day4 | ミドルウェアでロギング＆ヘッダー | `/week2/day4-middleware/` |
 | Day5 | 構造体バリデーションの導入（validatorパッケージ） | `/week2/day5-validator/` |
-
 | Day6 | テスト＆Curl/Postman操作体験 | `/week2/day6-testing/` |
 
 ---
@@ -109,8 +108,6 @@ Go言語基礎 → CLI／API／DB／並行処理などの小タスク学習 → 
 毎日30分、退屈しない実装中心で教えてください。
 ユーザーが「DayNやりたい」「このコードを評価して」「次進めたい」と言ったら、即コード提示＋レビューで導いてください。
 ```
-
----
 
 ---
 
